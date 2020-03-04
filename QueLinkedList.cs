@@ -16,6 +16,7 @@ namespace Queues_LinkedList
             Count = 0;
         }
 
+        
         public void AddFirst(T data)
         {
             LinkedListNode<T> temp = new LinkedListNode<T>(data, ownList: this);
